@@ -5,10 +5,10 @@ const App = () => {
     <>
       <main className="relative overflow-hidden w-screen grid h-screen place-items-center">
         <header className="h-[5rem] w-full absolute top-0 flex justify-between items-center px-9 md:px-24">
-          <h1 className="text-4xl text-white mix-blend-difference font-bold">
+          <h1 className="text-2xl sm:text-4xl text-white mix-blend-difference font-bold">
             Clocksmith
           </h1>
-          <div className="flex items-center gap-14 font-semibold">
+          <div className="hidden sm:flex sm:items-center sm:gap-14 font-semibold">
             <button className="text-white mix-blend-difference">Login</button>
             <button className="bg-white px-5 py-2 rounded mix-blend-difference">
               Signup
@@ -16,8 +16,8 @@ const App = () => {
           </div>
         </header>
 
-        <section className="absolute left-24 top-1/ w-1/3">
-          <h1 className="text-7xl font-bold tracking-wide text-black  ">
+        <section className="absolute md:left-24 p-7 top-1/ w-full md:w-1/3">
+          <h1 className="text-5xl sm:text-7xl font-bold tracking-wide text-black  ">
             The clock <br /> is
             <span className="text-white mix-blend-difference"> ticking</span>.
           </h1>
