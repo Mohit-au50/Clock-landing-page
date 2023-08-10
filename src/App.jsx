@@ -17,7 +17,7 @@ const App = () => {
         </header>
 
         <section className="absolute md:left-24 p-7 top-1/ w-full md:w-1/3">
-          <h1 className="text-5xl sm:text-7xl font-bold tracking-wide text-black  ">
+          <h1 className="text-5xl sm:text-7xl font-bold tracking-wide text-black">
             The clock <br /> is
             <span className="text-white mix-blend-difference"> ticking</span>.
           </h1>
@@ -30,7 +30,7 @@ const App = () => {
           </button>
         </section>
 
-        <section className="-z-10 absolute animate-round  w-[240vh] h-[240vh] bg-[conic-gradient(#222,#fff)]"></section>
+        <section className="-z-10 absolute animate-round w-[240vh] h-[240vh] bg-[conic-gradient(#222,#fff)]"></section>
       </main>
     </>
   );
