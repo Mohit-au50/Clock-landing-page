@@ -3,6 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "keywords": [
+    "landing-page",
+    "clock-design-landing",
+    "tailwindcss-clock"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
